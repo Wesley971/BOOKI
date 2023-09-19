@@ -471,40 +471,55 @@ padding: 7px;
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     
-
-    body {
-        max-width: 1024px;
-    }
-    .main-container {
-        width: 100%;
-        margin-left: 50px;
-        margin-right: 50px;
-
-        padding: 0px;}
-
-
 .filtre-title{
     margin-top :-10px;
     margin-left: 0;
 }
+
 .icon-filtres{
     margin-left: -62px;
     margin-top: 10px;
 }
-    .hebergements-and-populaires {
+     .hebergements-and-populaires {
         flex-direction: column;
     }
 
-    .hebergements {
+     .hebergements {
         width: 100%;
         margin-top: 10px;
     }
-    .hebergements-cards, .hebergements-cards .card{
-        justify-content: space-between;
+    .hebergements-cards a{
+        display: flex;
+        flex-direction: column;
+        width: 31%;
+        height: 200px;
+        margin-bottom: 15px;
     }
+    
+    
+    .hebergements-cards img{
+       width: 100%;
+       height: 110px;
+       min-width: 0;
+    }
+    .hebergements-cards .card{
+        margin-top: 20px;
+    }
+    .hebergements-cards .card-content ,
+     .hebergements-cards .card-title
+    {
+        font-size: 0.875rem;
+        padding-top: 5px;
+    }
+    
 
+     
     .activites-cards{
         padding-bottom: 15px;
+    }
+    .activites-cards a {
+        width: 100%;
+        height: 100px;
     }
     .activites-cards img{
         height: 220px;
@@ -558,7 +573,7 @@ padding: 7px;
         margin-right: 120px;
     }
 
-}
+
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -575,9 +590,13 @@ padding: 7px;
 
 }    
 
-
-nav a {
+nav a{
     width: 50%;
+    height: 32px;
+}
+nav a:hover {
+    border-color: #0065FC;
+    
 }
 nav{
     flex-wrap: wrap;
@@ -585,14 +604,13 @@ nav{
     align-items: center;
 }
 
-nav img{
-
-
-}
 nav ul{
     padding-top: 20px;
     padding-left: 0;
+    width: 100%;
+    height: 50%;
 }
+
 
 .logo-element{
     margin-top: 15px;
@@ -608,32 +626,48 @@ input[type=text] {
 }
 
 .hebergements-header{
-    border-bottom: var(--filter-bg-color) solid 2px;
-    margin: 0 auto;
     
+    margin: 0 auto;
+    margin-left: -9px;
 
 }
 
 
 .activites-header{
-    border-bottom: var(--filter-bg-color) solid 2px;
-    margin: 0 auto;
 
+    margin: 0 auto;
+    margin-right: -9px;
 }
 .hebergements-header, .activites-header{
     padding-top: 0;
+    text-align: center;
+    width: 53%;
+    
 }
 
 .hebergements-header:hover,
 .activites-header:hover {
     color:var(--main-color);
     border-top: none;
+    margin-top: 0 ;
     border-bottom: 2px var(--main-color) solid;
     cursor: pointer;
+    margin-bottom: -2px;
+    text-align: center;
+    width: 53%;
+    margin-bottom: -10px;
    
     
     
 }
+
+.hebergements-header:hover{
+    margin-left: -9px;
+}
+.activites-header:hover{
+    margin-right: -9px;
+}
+
 h2{
     flex-wrap: wrap;
 }
@@ -670,25 +704,28 @@ h2{
     width: 40%;
 }
 
-.filtre-two{
+.information {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
     
+
 }
-
-
-
-    
-
-
 .logement{ 
     display: block;
     font-size: 15px;
-    margin-left: 53px;
+    margin-left: 10px;
 
     
 }
 .information-icon{
     float:left;
-    margin-top: 6px;
+    margin-top: 0px;
     margin-left: 16px;
 }
 
@@ -725,9 +762,7 @@ input[type=submit]
     margin-top: 10px;
 }
 
-.populaires-cards{
-    
-}
+
 
 .populaires-cards .card{
     width: 100%;
@@ -742,6 +777,9 @@ input[type=submit]
 
 
 
+.hebergements-cards a {
+    width: 98%;
+}
 .hebergements-cards img{
     min-width: 277px;
 }
@@ -787,6 +825,7 @@ order: -1;
     margin-left: 0;
     padding: 10px;
 }
+
 .activites-cards .card{
     max-width: none;
     margin-bottom: 16px;
@@ -803,10 +842,15 @@ order: -1;
     min-width: none;
 }
 .contact{
-    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    
 }
 .a-propos,
 .nos-hebergements{
     margin-bottom: 50px;
 }
+
 }
