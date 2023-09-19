@@ -588,7 +588,7 @@ padding: 7px;
     .a-propos, .nos-hebergements{
         margin-right: 0px;
     }
-
+}
 
 
 /* Small devices (phones, less than 768px) */
@@ -872,5 +872,5 @@ order: -1;
 .nos-hebergements{
     margin-bottom: 50px;
 }
-
 }
+
