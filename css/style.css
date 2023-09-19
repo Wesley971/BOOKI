@@ -258,6 +258,14 @@ padding: 7px;
 .hebergements-cards{
     padding-bottom: 25px;
 }
+
+.hebergements-cards a{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    height: 214px;
+    margin-bottom: 20px;
+}
 .hebergements-cards img{
     
     
@@ -266,7 +274,7 @@ padding: 7px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
     border: 5px;
-    min-width: 243px;
+    
     
     
 }
@@ -288,9 +296,11 @@ padding: 7px;
     flex-direction: column;
     box-sizing: border-box;
     margin-left: 8px;
+    padding-top: 5px;
 }
 .hebergements-cards .card-title{
     margin: 0;
+    font-size: 0.850rem;
 }
 .hebergements-cards .card-subtitle {
     margin-top: 8px;
@@ -375,7 +385,7 @@ padding: 7px;
     display: flex;
     justify-content: space-between ;  
     margin-top: 40px;
-    margin-left: 30px;
+    
 }
 
 /* Section */
@@ -387,8 +397,11 @@ padding: 7px;
     padding-top: 30px;
 }
 
+.activites-cards a{
+    width: 23%;
+    
+}
 .activites-cards .card{
-    max-width:297.5px;
     padding: 0;
 
 }
@@ -405,9 +418,8 @@ padding: 7px;
 .activites-cards img{
 
     border-radius: 20px 20px 0 0;
-    height :380px; 
-    max-width:297.5px; 
-    min-width: 297.5px;
+    height :439px; 
+    width: 100%;
 
     
 
@@ -439,7 +451,7 @@ padding: 7px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-
+    justify-content: space-around;
 }
 .contact ul {
     list-style: none;   
@@ -456,9 +468,7 @@ padding: 7px;
 .assistance h3{
     margin-top: 0;
 }
-.a-propos,.nos-hebergements{
-    margin-right: 255px;
-}
+
 .nos-hebergements, .assistance{
     margin-top: -15px;
 }
@@ -512,24 +522,30 @@ padding: 7px;
         padding-top: 5px;
     }
     
-
+    .activites-marseilles{
+        margin-left: 0;
+    }
      
     .activites-cards{
         padding-bottom: 15px;
     }
     .activites-cards a {
-        width: 100%;
-        height: 100px;
+        width: 23%;
+        
     }
     .activites-cards img{
-        height: 220px;
-        max-width: 200px;
-        min-width: 200px;
+        width: 100%;
+        height: 200px;
+        max-width: none;
+        min-width: 0;
     }
     .activites-cards .card{
         
          max-width: 200px;
         
+    }
+    .activites-cards .card-title{
+        font-size: 13px;
     }
     .activites-cards .card-content{
     vertical-align: middle;    
@@ -570,7 +586,7 @@ padding: 7px;
         align-items: center;
     }
     .a-propos, .nos-hebergements{
-        margin-right: 120px;
+        margin-right: 0px;
     }
 
 
@@ -826,6 +842,10 @@ order: -1;
     padding: 10px;
 }
 
+.activites-cards a {
+    width: 100%;
+    
+}
 .activites-cards .card{
     max-width: none;
     margin-bottom: 16px;
