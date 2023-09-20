@@ -307,18 +307,8 @@ padding: 7px;
     
 }
 
-
-
-
-/* A modifié a cause taille Image */
 .hebergements-cards .card{
-
     margin-top: 33px;
-    max-width: 250.33px;
-    max-height: 207.25px;
-    
-
-
 }
 
 
@@ -379,15 +369,12 @@ padding: 7px;
 
 /* Activités à Marseille */
 
-/* Toute la div */
 .activites-marseilles{
     display: flex;
     justify-content: space-between ;  
     margin-top: 40px;
     
 }
-
-/* Section */
  .activites {
     width: 100%;
 }    
@@ -478,89 +465,87 @@ padding: 7px;
     
 .filtre-title{
     margin-top :-10px;
-    margin-left: 0;
 }
 
 .icon-filtres{
     margin-left: -62px;
     margin-top: 10px;
 }
-     .hebergements-and-populaires {
+.hebergements-and-populaires {
         flex-direction: column;
-    }
+}
 
-     .hebergements {
+.hebergements {
         width: 100%;
         margin-top: 10px;
-    }
-    .hebergements-cards a{
+}
+.hebergements-cards a{
         height: 200px;
         margin-bottom: 15px;
-    }
+}
     
     
-    .hebergements-cards img{
+.hebergements-cards img{
        height: 110px;
        
-    }
-    .hebergements-cards .card{
+}
+.hebergements-cards .card{
         margin-top: 20px;
-    }
-    .hebergements-cards .card-content ,
-     .hebergements-cards .card-title
-    {
+}
+.hebergements-cards .card-content ,
+.hebergements-cards .card-title{
         font-size: 0.875rem;
         padding-top: 5px;
-    }
+}
     
      
-    .activites-cards{
+.activites-cards{
         padding-bottom: 15px;
-    }
+}
     
-    .activites-cards img{
+.activites-cards img{
         height: 200px;
         
-    }
-    .activites-cards .card{
+}
+.activites-cards .card{
         
          max-width: 200px;
         
-    }
+}
     .activites-cards .card-title{
         font-size: 0.813rem;
-    }
-    .activites-cards .card-content{    
+}
+.activites-cards .card-content{    
     margin: 10px 10px 15px 20px;
     
-    }
-    .activites-cards .card-txt-short{
+}
+.activites-cards .card-txt-short{
         padding-top: 10px; 
-    }
+}
     
-    .populaires {
+.populaires {
         
         width: 100%;
         margin-top: 50px;
-    }
+}
 
-    .populaires-cards {
+.populaires-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
+}
 
-    .populaires-cards .card {
+.populaires-cards .card {
         width: 30%;
-    }
+}
 
-    .populaires-cards .card-title {
+.populaires-cards .card-title {
         font-size: 0.875rem;
-    }
+}
 
-    .populaires-cards .card-subtitle {
+.populaires-cards .card-subtitle {
         font-size: 0.813rem;
-    }
+}
     
     
     
