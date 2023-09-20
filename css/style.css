@@ -253,6 +253,9 @@ padding: 7px;
     width: 65%;
 
 }
+.hebergements .section-title{
+    padding-bottom: 33px;
+}
 
     
 .hebergements-cards{
@@ -307,9 +310,7 @@ padding: 7px;
     
 }
 
-.hebergements-cards .card{
-    margin-top: 33px;
-}
+
 
 
 /****** Populaires ***********/
@@ -489,9 +490,7 @@ padding: 7px;
        height: 110px;
        
 }
-.hebergements-cards .card{
-        margin-top: 20px;
-}
+
 .hebergements-cards .card-content ,
 .hebergements-cards .card-title{
         font-size: 0.875rem;
@@ -557,23 +556,16 @@ padding: 7px;
     /* ... */
 
 
-
-
 .main-container {
     
     padding: 0px;
-    margin-left: 0;
-    margin-right: 0;
-
 }    
 
 nav a{
     width: 50%;
-    height: 32px;
 }
 nav a:hover {
-    border-color: #0065FC;
-    
+    border-color: #0065FC;  
 }
 nav{
     flex-wrap: wrap;
@@ -633,9 +625,7 @@ input[type=text] {
     text-align: center;
     width: 53%;
     margin-bottom: -10px;
-   
-    
-    
+      
 }
 
 .hebergements-header:hover{
@@ -689,9 +679,6 @@ h2{
     align-items: center;
     justify-content: flex-start;
 
-
-    
-
 }
 .logement{ 
     display: block;
@@ -739,8 +726,6 @@ input[type=submit]
     margin-top: 10px;
 }
 
-
-
 .populaires-cards .card{
     width: 100%;
 }
@@ -752,8 +737,6 @@ input[type=submit]
     background-color: white;
 }
 
-
-
 .hebergements-cards a {
     width: 97%;
 }
@@ -761,41 +744,10 @@ input[type=submit]
     min-width: 277px;
 }
 
-.hebergements-cards .card{
-    max-width: none;
-    max-height: none;
-    
-}
 .hebergements-cards, .hebergements-cards .card{
     flex-direction: column;
     justify-content: initial;
     width: 100%;
-}
-.card-flex-one{
-display: flex;
-order: -1;
-}
-.card-flex-two{
-    display: flex;
-    order:3;}
-
-.card-flex-three{
-    display: flex;
-    order: 2;
-}
-.card-flex-four{
-    display: flex;
-    order: 2;
-}
-.card-flex-five{
-    display: flex;
-    order: -1;
-
-}
-.card-flex-six{
-    display: flex;
-    order:2;
-    
 }
 
 .activites-marseilles {
