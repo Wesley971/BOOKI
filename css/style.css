@@ -689,6 +689,7 @@ h2{
     flex-wrap: wrap;
     width: 100%;
     gap:20px;
+    justify-content: center;
     
 }
 .filtre-one, .filtre-two, .filtre-three, .filtre-four{
