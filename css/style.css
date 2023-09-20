@@ -557,11 +557,11 @@ padding: 7px;
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 0.813rem;
     }
     
     
@@ -670,7 +670,6 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     
 }
 
