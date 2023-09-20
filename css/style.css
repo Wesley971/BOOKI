@@ -34,7 +34,7 @@ h2{
 }
 p{
     margin-top: 0px;
-    margin-bottom: 30px;
+    
 }
 
 a {
@@ -272,7 +272,6 @@ padding: 7px;
     width: 100%;
     height: 124px;
     border-radius: 15px 15px 0 0;
-    object-fit: cover;
     border: 5px;
     
     
@@ -456,13 +455,11 @@ padding: 7px;
 .contact ul {
     list-style: none;   
 }
-.contact p{
-    margin: 10px;
-}
+
 .contact-info h3,
 .contact-info p{
     margin-top: 17px;
-    margin-left: 17px;
+
 }
 .nos-hebergements h3,
 .assistance h3{
@@ -499,18 +496,14 @@ padding: 7px;
         margin-top: 10px;
     }
     .hebergements-cards a{
-        display: flex;
-        flex-direction: column;
-        width: 31%;
         height: 200px;
         margin-bottom: 15px;
     }
     
     
     .hebergements-cards img{
-       width: 100%;
        height: 110px;
-       min-width: 0;
+       
     }
     .hebergements-cards .card{
         margin-top: 20px;
@@ -522,22 +515,14 @@ padding: 7px;
         padding-top: 5px;
     }
     
-    .activites-marseilles{
-        margin-left: 0;
-    }
      
     .activites-cards{
         padding-bottom: 15px;
     }
-    .activites-cards a {
-        width: 23%;
-        
-    }
+    
     .activites-cards img{
-        width: 100%;
         height: 200px;
-        max-width: none;
-        min-width: 0;
+        
     }
     .activites-cards .card{
         
@@ -545,10 +530,9 @@ padding: 7px;
         
     }
     .activites-cards .card-title{
-        font-size: 13px;
+        font-size: 0.813rem;
     }
-    .activites-cards .card-content{
-    vertical-align: middle;    
+    .activites-cards .card-content{    
     margin: 10px 10px 15px 20px;
     
     }
@@ -580,14 +564,8 @@ padding: 7px;
         font-size: 13px;
     }
     
-    .contact{
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-    .a-propos, .nos-hebergements{
-        margin-right: 0px;
-    }
+    
+    
 }
 
 
@@ -794,7 +772,7 @@ input[type=submit]
 
 
 .hebergements-cards a {
-    width: 98%;
+    width: 97%;
 }
 .hebergements-cards img{
     min-width: 277px;
@@ -838,8 +816,9 @@ order: -1;
 }
 
 .activites-marseilles {
-    margin-left: 0;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 .activites-cards a {
@@ -855,22 +834,26 @@ order: -1;
     flex-direction: column;
     justify-content: initial;
 }
+
+.activites-cards .card-title{
+    font-size: 1rem;
+}
 .activites-cards img{
-    width: 100%;
     max-height: 140px;
-    max-width: none;
-    min-width: none;
+    
+}
+.contact-footer{
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-bottom: -7px;
 }
 .contact{
-    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    
+    padding-left: 30px;
+    gap: 10px;
 }
-.a-propos,
-.nos-hebergements{
-    margin-bottom: 50px;
-}
+
 }
 
