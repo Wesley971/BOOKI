@@ -648,7 +648,6 @@ input[type=text] {
 input[type=submit] 
 {
     visibility: visible;
-    
     float:right;
     display: none;
 } 
