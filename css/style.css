@@ -175,14 +175,13 @@ input[type=submit]{
     margin-top: 40px;
     
 }
-.icon-filtres {
+.four-filtres {
     display: flex;
     margin-top: -29px;
     margin-left: 13px;
 }
 
-.filtre-one, .filtre-two
-,.filtre-three, .filtre-four  {
+.filtre-icon  {
     
     
     border: var(--main-bg-color) solid 2px;
@@ -193,8 +192,7 @@ input[type=submit]{
     font-weight: 700;
     
 }
-.filtre-one:hover, .filtre-two:hover
-,.filtre-three:hover, .filtre-four:hover{
+.filtre-icon:hover{
     background-color: var(--filter-bg-color);
     cursor: pointer;  
 }
@@ -468,7 +466,7 @@ padding: 7px;
     margin-top :-10px;
 }
 
-.icon-filtres{
+.four-filtres{
     margin-left: -62px;
     margin-top: 10px;
 }
@@ -655,7 +653,7 @@ h2{
 .filtre-title{
     margin-top:0;
 }
-.icon-filtres {
+.four-filtres {
     margin-left: 0px;
     margin-top: 0px;
     flex-wrap: wrap;
@@ -664,7 +662,7 @@ h2{
     justify-content: center;
     
 }
-.filtre-one, .filtre-two, .filtre-three, .filtre-four{
+.filtre-icon{
     padding: 8px 8px 8px 7px;
     margin: 0;
     font-size: 14px;
