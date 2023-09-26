@@ -609,6 +609,8 @@ input[type=text] {
     padding-top: 0;
     text-align: center;
     width: 53%;
+    border-bottom: 2px solid var(--filter-bg-color);
+    margin-bottom: -30px;
     
 }
 
@@ -622,7 +624,7 @@ input[type=text] {
     margin-bottom: -2px;
     text-align: center;
     width: 53%;
-    margin-bottom: -10px;
+    margin-bottom: -30px;
       
 }
 
@@ -635,6 +637,7 @@ input[type=text] {
 
 h2{
     flex-wrap: wrap;
+    text-align: center;
 }
 .main-title
 { 
