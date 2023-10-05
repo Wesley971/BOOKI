@@ -772,12 +772,6 @@ input[type=submit]
 .activites-cards .card{
     max-width: none;
     margin-bottom: 16px;
-    margin-left: 0;
-}
-
-.activites-cards, .activites-cards .card{
-    flex-direction: column;
-    justify-content: initial;
 }
 
 .activites-cards .card-title{
