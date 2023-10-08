@@ -645,7 +645,6 @@ input[type=text] {
 
 input[type=submit] 
 {
-    visibility: visible;
     float:right;
     display: none;
 } 
@@ -791,8 +790,6 @@ input[type=submit]
 
 .contact{
     flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
     padding-left: 30px;
     gap: 10px;
 }
